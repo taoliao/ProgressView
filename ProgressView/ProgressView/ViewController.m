@@ -8,10 +8,14 @@
 
 #import "ViewController.h"
 #import "TLProgressView.h"
+#import "TLBingView.h"
+#import "TLJuView.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet TLProgressView *progressView;
 @property (weak, nonatomic) IBOutlet UILabel *lable;
+@property (weak, nonatomic) IBOutlet TLBingView *BingView;
+@property (weak, nonatomic) IBOutlet TLJuView *JuView;
 
 @end
 

@@ -16,6 +16,8 @@
 		D4D47011213524A300515BA7 /* ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D47010213524A300515BA7 /* ProgressViewTests.m */; };
 		D4D4701C213524A300515BA7 /* ProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D4701B213524A300515BA7 /* ProgressViewUITests.m */; };
 		D4D4702B213524CD00515BA7 /* TLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D4702A213524CD00515BA7 /* TLProgressView.m */; };
+		D4D4702E2135342100515BA7 /* TLBingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D4702D2135342100515BA7 /* TLBingView.m */; };
+		D4D47031213540EF00515BA7 /* TLJuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D47030213540EF00515BA7 /* TLJuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D4D4701D213524A300515BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D47029213524CD00515BA7 /* TLProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLProgressView.h; sourceTree = "<group>"; };
 		D4D4702A213524CD00515BA7 /* TLProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLProgressView.m; sourceTree = "<group>"; };
+		D4D4702C2135342100515BA7 /* TLBingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBingView.h; sourceTree = "<group>"; };
+		D4D4702D2135342100515BA7 /* TLBingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBingView.m; sourceTree = "<group>"; };
+		D4D4702F213540EF00515BA7 /* TLJuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLJuView.h; sourceTree = "<group>"; };
+		D4D47030213540EF00515BA7 /* TLJuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLJuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				D4D46FFB213524A300515BA7 /* ViewController.m */,
 				D4D47029213524CD00515BA7 /* TLProgressView.h */,
 				D4D4702A213524CD00515BA7 /* TLProgressView.m */,
+				D4D4702C2135342100515BA7 /* TLBingView.h */,
+				D4D4702D2135342100515BA7 /* TLBingView.m */,
+				D4D4702F213540EF00515BA7 /* TLJuView.h */,
+				D4D47030213540EF00515BA7 /* TLJuView.m */,
 				D4D46FFD213524A300515BA7 /* Main.storyboard */,
 				D4D47000213524A300515BA7 /* Assets.xcassets */,
 				D4D47002213524A300515BA7 /* LaunchScreen.storyboard */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D46FFC213524A300515BA7 /* ViewController.m in Sources */,
+				D4D47031213540EF00515BA7 /* TLJuView.m in Sources */,
+				D4D4702E2135342100515BA7 /* TLBingView.m in Sources */,
 				D4D47007213524A300515BA7 /* main.m in Sources */,
 				D4D46FF9213524A200515BA7 /* AppDelegate.m in Sources */,
 				D4D4702B213524CD00515BA7 /* TLProgressView.m in Sources */,
