@@ -23,7 +23,7 @@
         if(temp == total) { //当取出来的随机数等于总数 退出循环
             break;
         }
-        total-=temp;
+        total-=temp;//每次取到一个随机数 就立即减去这个随机数 所有随机数加起来等于100
     }
     
     if (total > 0) { //如果没有取完 就加上剩下的部分
@@ -39,35 +39,21 @@
     // Drawing code
     
     NSArray *arr = [self randomArr];
-    
     CGFloat radius = self.bounds.size.width * 0.5;
-    
     CGPoint center = CGPointMake(radius, radius);
-    
     CGFloat startA = 0;
-    
     CGFloat angle = 0;
-    
     CGFloat endA = startA + angle;
     
-    
     for (int i=0; i < arr.count; i++) {
-        
-        startA = endA;
-        
-        angle = [arr[i] doubleValue] / 100.0 * M_PI*2;
-        
-        endA = startA + angle;
-        
+        startA = endA;//起始角度=结束角度
+        angle = [arr[i] doubleValue] / 100.0 * M_PI*2; //计算弧度
+        endA = startA + angle;//起始角度+旋转弧度
         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:startA endAngle:endA clockwise:YES];
-        
         //添加一条线到圆心
         [path addLineToPoint:center];
-        
         [[self colorRandom] setFill];
-        
         [path fill];
-        
     }
     
 }
